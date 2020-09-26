@@ -1,0 +1,45 @@
+header {
+    background-color: #672b33;
+    color: #eae6dd;
+    line-height: 75px;
+    padding-left: 5%;
+}
+
+h2 {
+    margin: 5%;
+}
+
+.col {
+    border: 1px solid #eae6dd;
+    padding: 8px;
+    margin: 3%;
+    /* float: left;
+    width: 27.33%; */
+}
+
+.float-container {
+    display: flow-root;
+}
+
+.float-container > div {
+    float: left;
+    width: 27.33%;
+}
+
+.flex-container {
+    display: flex;
+    position: relative;
+}
+
+.flex-container > div {
+    flex-basis: 27.33%;
+}
+
+a {
+    background-color: #672b33;
+    color: #eae6dd;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+}
